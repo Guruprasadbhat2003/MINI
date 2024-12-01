@@ -1,0 +1,153 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+   height: 100vh;
+     display: flex;
+       flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding:15px; 
+   background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+  z-index: 10;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.site-name {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex; 
+   align-items: center;
+  gap: 30px; 
+}
+.search-bar-container {
+  flex-grow: 1.5; 
+}
+.navbar-section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  cursor:pointer; 
+  transition: transform 0.5s; 
+  background: none; 
+  border: none; 
+  padding: 0; 
+  position: relative;
+}
+
+.navbar-section:hover {
+  transform: scale(1.05); 
+}
+
+.icon {
+  width: 24px; 
+  height: 24px; 
+  margin-bottom: 5px; 
+}
+
+.navbar-section span {
+  font-size: 15px; 
+  color: inherit; 
+}
+
+
+.content {
+  margin-top: 0px; 
+}
+
+h2 {
+  color: #0951e0;
+}
+
+body {
+  background-color: white;
+  
+}
+
+.header {
+background-color:white;
+}
+
+.search-bar {
+ width: 300px; 
+  padding: 8px 12px;
+  border: 1px solid #000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  outline: none;
+
+}
+
+.search-bar:focus {
+  border-color: black;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+ 
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.content {
+  flex-grow: 1; 
+  background-image: url('C:\Users\Guru\avatar_closet\frontend\public\assets\home.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 20px; 
+}
+
+.search-bar-container input {
+  padding: 8px;
+  border-radius: 4px;
+  width: 300px; /* Adjust according to design */
+}
+.marquee {
+  width: 100%; /* Full width of the container */
+  overflow: hidden; /* Hide the part of the text that moves out of the container */
+  white-space: nowrap;
+  
+  font-size: 50px;
+ 
+}
+
+.marquee h2 {
+  display: inline-block;
+  
+  animation: scrollText 50s linear infinite;
+  color: #fff;
+  font-size: 100px;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(-50%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}

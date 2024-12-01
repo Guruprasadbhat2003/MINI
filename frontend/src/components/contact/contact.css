@@ -1,0 +1,86 @@
+.contact-us-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff; 
+  color: #333;
+  font-family: Arial, sans-serif;
+  max-width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-section,
+.contact-info-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.contact-form-section h2 {
+  color: #333;
+}
+
+.contact-info-section {
+  background-color: #f7f7f7; /* Light grey background for info section */
+  width: 20%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info-section h3 {
+  color: #228c68; /* Darker green for headings */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff; /* White background for form section */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background-color: #007bff; /* Blue background for button */
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #d63384; /* Pink border */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+.contact-info-section p {
+  font-size: 16px;
+  margin: 10px 0;
+}

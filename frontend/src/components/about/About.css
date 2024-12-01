@@ -1,0 +1,36 @@
+.about-footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 60px 60px; 
+    text-align: center; 
+    border-top: 2px solid #555; 
+    margin-top: 20px; 
+  }
+  
+  .about-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+  }
+  
+  .about-title {
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+  }
+  
+  .about-text {
+    font-size: 1rem; 
+    color: white; 
+    margin-bottom: 0px; 
+  }
+  
+  .about-text strong {
+    color: #fff; 
+  }
+  
+  .about-copyright {
+    font-size: 0.9rem; 
+    color: #049df5; 
+    margin-top: 30px; 
+  }

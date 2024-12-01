@@ -1,0 +1,101 @@
+.wishlist-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.wishlist-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Ensures responsive grid layout */
+  gap: 20px;
+}
+
+.wishlist-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: space-between; /* Space out content for uniformity */
+  height: 350px; /* Set a fixed height for consistent card size */
+}
+
+.wishlist-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.item-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.wishlist-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center; /* Center align the buttons */
+}
+
+.wishlist-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+  width: 100%; /* Makes buttons stretch across the card */
+  transition: background-color 0.2s;
+}
+
+.wishlist-actions button:nth-child(1) {
+  background-color: #ff4d4d;
+}
+
+.wishlist-actions button:nth-child(1):hover {
+  background-color: #e63939;
+}
+
+.wishlist-actions button:nth-child(2) {
+  background-color: #007bff;
+}
+
+.wishlist-actions button:nth-child(2):hover {
+  background-color: #0056b3;
+}
+
+.wishlist-actions button:nth-child(3) {
+  background-color: #28a745;
+}
+
+.wishlist-actions button:nth-child(3):hover {
+  background-color: #218838;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .wishlist-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Adjust grid for smaller screens */
+  }
+
+  .wishlist-item {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .item-image {
+    height: 130px; /* Adjust image size for smaller screens */
+  }
+}

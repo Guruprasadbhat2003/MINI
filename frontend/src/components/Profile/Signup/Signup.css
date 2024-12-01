@@ -1,0 +1,93 @@
+/* General Body and HTML Styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  max-width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Fields Container */
+.inputs .input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.inputs .input img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Forgot Password Link */
+.forgot_pass {
+  margin: 15px 0;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Button Container */
+.sub_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Buttons Styles */
+.submit_1, .submit, .signup-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submit_1, .submit {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.signup-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit_1:hover, .submit:hover, .signup-btn:hover {
+  background-color: #0056b3;
+}
+
+.signup-btn:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,39 @@
+body.dark-mode {
+  background-color: #121212; 
+  color: white; 
+}
+
+body.dark-mode .header {
+  background-color: #1c1c1c; 
+}
+
+.theme-button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50%; 
+  font-size: 20px;
+  background-color: #f0f0f0; 
+  color: black; 
+  transition: background-color 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  background-color:black; 
+  transform: scale(1.1); 
+}
+
+body.dark-mode .theme-button {
+  background-color:black; 
+  color: white; 
+}
+
+body.dark-mode .theme-button:hover {
+  background-color:white; 
+}
+body.dark-mode .navbar-section span {
+  color: white; 
+}
+body.dark-mode .card-links{
+  color:#121212;
+}
