@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AR Trial-MODE</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Augmented trial room" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="static/css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- js -->
+	<script src="static/js/jquery.min.js"></script>
+	<!-- //js -->
+	<!-- countdown -->
+	<link rel="stylesheet" href="static/css/jquery.countdown.css" />
+	<!-- //countdown -->
+	<!-- cart -->
+	<script src="static/js/simpleCart.min.js"></script>
+	<!-- cart -->
+	<!-- for bootstrap working -->
+	<script type="text/javascript" src="static/js/bootstrap-3.1.1.min.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- start-smooth-scrolling -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	
+
+</head>
+
+<body>
+	<script>
+		$('#myModal88').modal('show');
+	</script>
+	
+	<div class="header" style="padding-left: 5em;">
+		<div class="container">
+
+			<div class="w3l_logo">
+				<h1 class="ml-auto" style="font-display: Lato;font-size: 3em;"><a href="index.html"><marquee>AR TRY-ON MODE</marquee></a></h1>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<hr>
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="col-md-12 wthree_banner_bottom_right">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						
+					
+					
+						<li role="presentation"><a href="#tshirts" role="tab" id="tshirts-tab" data-toggle="tab"
+								aria-controls="tshirts">T-shirts</a></li>
+						
+					</ul>
+
+					
+					<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade" id="tshirts" aria-labelledby="tshirts-tab">
+							<div class="e_commerce_tabs">
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/00009_00.png" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>U.S Pollo</h5>
+									<div class="simpleCart_shelfItem">
+										<p> <i class="item_price">Rs.200</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,00009_00.png') }}">Try it Now!</a></p>
+									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/3.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>DNMX</h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">Rs.300</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,3.jpg') }}">Try it Now!</a></p>
+									</div>
+								</div>
+
+								
+
+
+								
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/11791_00.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>Pink T Shirt</h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">Rs.250</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,11791_00.jpg') }}">Try it Now!</a></p>
+									</div>
+								</div>
+
+								
+
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/00030_00.png" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>PUMA</h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">Rs.250</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,00030_00.png') }}">Try it Now!</a></p>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/Tops46.png" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>U.S POLO</h5>
+									<div class="simpleCart_shelfItem">
+										<p> <i class="item_price">Rs.250</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops46.png') }}">Try it Now!</a></p>
+									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="/static/images/00029_00.png" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+										</div>
+									</div>
+									<h5>Levi's</h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">Rs.250</i></p>
+										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,00029_00.png') }}">Try it Now!</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+	</div>
+			
+
+						<script type="text/javascript">
+
+							var CART = []
+
+							function runPyScript(input) {
+								
+								var jqXHR = $.ajax({
+									type: "POST",
+									url: "/tryall",
+									async: false,
+									data: { mydata: input }
+								});
+
+								return jqXHR.responseText;
+							}
+
+							$('#check_out').click(function () {
+								alert("not Added Product To Cart")
+								datatosend = CART.join(' ');
+								result = runPyScript(datatosend);
+							});
+						</script>
+
+						<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet"> 
+
+</body>
+
+</html>
