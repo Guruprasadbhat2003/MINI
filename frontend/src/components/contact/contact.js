@@ -2,21 +2,21 @@ import React from "react";
 import "./contact.css";
 
 const ContactUs = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Thank you for reaching out! We'll get back to you soon.");
-  };
-
   return (
     <div className="contact-us-container">
       <div className="contact-form-section">
         <h2>Contact Us</h2>
-        <form onSubmit={handleSubmit}>
+        {/* Formspree Form */}
+        <form
+          action="https://formspree.io/f/xzzbwebz" // Replace with your Formspree form ID
+          method="POST"
+        >
           <label htmlFor="name">
             Name:
             <input
               id="name"
               type="text"
+              name="name" // Important for Formspree
               placeholder="Your Name"
               required
               aria-label="Enter your name"
@@ -27,6 +27,7 @@ const ContactUs = () => {
             <input
               id="email"
               type="email"
+              name="email" // Important for Formspree
               placeholder="example@example.com"
               required
               aria-label="Enter your email"
@@ -36,6 +37,7 @@ const ContactUs = () => {
             Message:
             <textarea
               id="message"
+              name="message" // Important for Formspree
               placeholder="Your Message"
               required
               aria-label="Enter your message"
